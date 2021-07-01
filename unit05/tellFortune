@@ -6,3 +6,7 @@ var jobTitle = 'business mogul';
 var future = 'You will be a ' + jobTitle + ' in ' + geoLocation + ', and married to ' +
    partner + ' ' + ' with ' + numKids + ' kids.';
 console.log(future);
+
+tellFortune('soccer player', 'France', 'Chris Evans', 3);
+tellFortune('Hairsylist', 'Canada', 'Shawn Mendes', 8);
+tellFortune('Designer', 'New York', 'P.Diddy', 0);
