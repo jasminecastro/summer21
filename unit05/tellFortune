@@ -1,4 +1,14 @@
-var numKids  = 3;
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Template</title>
+  <link rel="stylesheet" href="myStyles.css">
+  <script>
+    /* <![CDATA[ */
+    // Most JavaScript code goes in the head section.
+    /* ]]> */
+    var numKids  = 3;
 var partner  = 'Alex Turner';
 var geoLocation = 'Italy';
 var jobTitle = 'business mogul';
@@ -6,7 +16,23 @@ var jobTitle = 'business mogul';
 var future = 'You will be a ' + jobTitle + ' in ' + geoLocation + ', and married to ' +
    partner + ' ' + ' with ' + numKids + ' kids.';
 console.log(future);
+    
+  </script>
+<!--[if lt IE 9]>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
+</head>
 
-tellFortune('soccer player', 'France', 'Chris Evans', 3);
+<body>
+  <!-- Your HTML content goes inside the body tag, below this comment.  -->
+  <script>
+    /* <![CDATA[ */
+    // But JavaScript code can go wherever it needs to be, including in the body.
+    /* ]]> */
+ tellFortune('soccer player', 'France', 'Chris Evans', 3);
 tellFortune('Hairsylist', 'Canada', 'Shawn Mendes', 8);
-tellFortune('Designer', 'New York', 'P.Diddy', 0);
+tellFortune('Designer', 'New York', 'P.Diddy', 0);   
+    
+  </script>
+</body>
+</html>
