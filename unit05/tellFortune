@@ -1,1 +1,8 @@
+var numKids  = 3;
+var partner  = 'Alex Turner';
+var geoLocation = 'Italy';
+var jobTitle = 'business mogul';
 
+var future = 'You will be a ' + jobTitle + ' in ' + geoLocation + ', and married to ' +
+   partner + ' ' + ' with ' + numKids + ' kids.';
+console.log(future);
