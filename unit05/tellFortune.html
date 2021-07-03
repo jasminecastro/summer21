@@ -1,13 +1,27 @@
-var numKids  = 3;
-var partner  = 'Alex Turner';
-var geoLocation = 'Italy';
-var jobTitle = 'business mogul';
+<!DOCTYPE html>
+<html>
+<title>The Fortune Teller</title>
+<body>
+	<script>
+		var children = 3;
+		var partner = "Alex Turner";
+		var location = "Italy";
+		var job = "Business Mogul";
+		document.write("I will be a " + job + " in " + location + ", and married to" + partner + "with " + children + "kids.");
+	</script>
 
-var future = 'You will be a ' + jobTitle + ' in ' + geoLocation + ', and married to ' +
-   partner + ' ' + ' with ' + numKids + ' kids.';
-console.log(future);
+	<script>
+	//part 2
+	function tellFuture(a,b,c,d){
+		var future = "I will be a " + d " in" + c + " ,and married to " + b + " with " + a + " kids."
+		document.write(future);
 
-tellFortune('soccer player', 'France', 'Chris Evans', 3);
-tellFortune('Hairsylist', 'Canada', 'Shawn Mendes', 8);
-tellFortune('Designer', 'New York', 'P.Diddy', 0);
+	}
+	</script>
+
+	<p><script>tellFuture(1, "P.Diddy", "New York", "Designer");</script></p>
+	<p><script>tellFuture(2, "Chris Evans", "France", "Soccer Player");</script></p>
+	<p><script>tellFuture(0, "Shawn Mendes", "Canada", "Hairstylist");</script></p>
+</body>
+</html>
 
